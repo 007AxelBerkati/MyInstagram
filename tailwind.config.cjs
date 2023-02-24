@@ -3,17 +3,10 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      // primary: {
-      //   '01': '#E2D4F0',
-      //   '02': '#D0B7E6',
-      //   '03': '#A06ECE',
-      //   '04': '#7126B5',
-      //   '05': '#4B1979',
-      // },
-      alert: {
-        danger: '#FA2C5A',
-        warning: '#F9CC00',
-        success: '#73CA5C',
+      colors: {
+        'primary-background': '#EFEFEF',
+        'primary-link': '#0095F6',
+        'primary-gray': '#8E8E8E',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
