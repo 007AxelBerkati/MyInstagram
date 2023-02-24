@@ -1,22 +1,22 @@
+import { Home, Messages, Profile } from './pages/dashboard';
+
 export const routes = [
   {
-    layout: 'dashboard',
-    pages: [
-      {
-        path: '/',
-        name: 'Home',
-        component: Home,
-      },
-      {
-        path: '/about',
-        name: 'About',
-        component: About,
-      },
-      {
-        path: '/messages',
-        name: 'Messages',
-        component: Messages,
-      },
-    ],
+    id: 1,
+    name: 'Home',
+    path: '/',
+    element: <Home />,
+  },
+  {
+    id: 2,
+    name: 'Profile',
+    path: '/profile',
+    element: <Profile />,
+  },
+  {
+    id: 3,
+    name: 'Messages',
+    path: '/messages',
+    element: <Messages />,
   },
 ];

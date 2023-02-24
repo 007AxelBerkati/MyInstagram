@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { About, Home, Messages } from './pages/dashboard';
+import { Home, Messages, Profile } from './pages/dashboard';
 
 const RoutesApp = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/messages" element={<Messages />} />
     </Routes>
   );
